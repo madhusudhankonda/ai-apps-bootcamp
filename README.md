@@ -98,12 +98,12 @@ That's pretty much the information on setting up the project for working through
 
 Let's dive into individual projects to get through the fundamentals - let's begin our journey into the world of AI.
 
-## Chapter 1: OpenAI Basics
+## Module 1: OpenAI Basics
 
 ![OpenAI Basics](https://github.com/madhusudhankonda/ai-apps-bootcamp/blob/main/1_openai-basics/readme.md)
 
-## Chapter 2: Introducing LangChain
+## Module 2: Introducing LangChain
 
-## Chapter 3: OpenAI Basics
+## Module 3: 
 
 
