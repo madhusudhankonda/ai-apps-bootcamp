@@ -100,7 +100,7 @@ Let's dive into individual projects to get through the fundamentals - let's begi
 
 ## Chapter 1: OpenAI Basics
 
-![]()
+![OpenAI Basics](https://github.com/madhusudhankonda/ai-apps-bootcamp/blob/main/1_openai-basics/readme.md)
 
 ## Chapter 2: Introducing LangChain
 
