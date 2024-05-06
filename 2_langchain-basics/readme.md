@@ -1,21 +1,27 @@
-# Module 1: OpenAI Basics
+# Module 2: Introduction to Langchain 
 
-In this module, we will look at the how we can develop basic AI Applications. We need two pre-requisites to be performed before we start on this lab:
+In this module, we will look at what is Langchain and how it can be leveraged to develop and deploy AI powered software applications. 
+
+As expected, we need two pre-requisites to be performed before we start on this lab:
 
 - The setup file (`setup.sh`) is executed so the `.venv` gets provisioned. As part of the script, the requirements file will also be executed so the required modules gets added to the project
+
 - The OpenAPI Key environment variable is set and you export the API Key (`OPENAI_API_KEY`) as an environment variable.
 
 ``` 
 export OPENAI_API_KEY=<your-key>
 ```
 
-> The `requirements.txt` file consists of one modules `openai` that would be downloaded as part of the setup.
+> The `requirements.txt` file consists of two modules `langchain` and `langchain-openai` that would be downloaded as part of the setup
 
 Once the environment is ready, let's start the Hello World program!
 
 ## Hello World
 
-As a first application, we will simply ask the LLM a question. If all goes well, we will receive an answer.
+As a first application, we will simply ask the OpenAI LLM a question. If all goes well, we will receive an answer.
+
+> Langchain has two flavours of LLMs - the LLM with a class defined as `OpenAI` (duh!) and chat based LLM called `ChatOpenAI`. The LLM objects take in String and respond with a String. The ChatModels take in a list of messages and outputs a message.
+
 
 Let's create a simple Hello World python program to ask a question to OpenAI's LLM. We use a `gpt-4` model in this example.
 

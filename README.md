@@ -69,8 +69,13 @@ source .venv/bin/activate
 
 This command activates the virtual env. You can also issue `deactivate` if you'd want the venv to be shutdown.
 
-Now that we have the env ready, let's install the dependencies.
+> if you are using conda, you can follow the similar steps:
+```
+conda create -n .venvconda python=3.11 
+conda activate .venvconda
+```
 
+Now that we have the env ready, let's install the dependencies.
 
 # Installing the dependencies
 
