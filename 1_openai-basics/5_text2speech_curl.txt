@@ -1,0 +1,12 @@
+# Open Terminal
+# export OPENAI_API_KEY=<key>
+
+curl https://api.openai.com/v1/audio/speech \
+  -H "Authorization: Bearer $OPENAI_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "model": "tts-1",
+    "input": "Hello, mad mad mad happy world!",
+    "voice": "alloy"
+  }' \
+  --output hello-mad-world.mp3

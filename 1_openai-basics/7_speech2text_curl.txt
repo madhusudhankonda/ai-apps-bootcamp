@@ -1,0 +1,13 @@
+# Open Terminal
+# export OPENAI_API_KEY=<key>
+
+curl https://api.openai.com/v1/audio/transcriptions \
+  -H "Authorization: Bearer $OPENAI_API_KEY" \
+  -H "Content-Type: multipart/form-data" \
+  -F file=./hello-speech.mp3 \
+  -F model="whisper-1"
+
+
+//output
+
+"text": "Hello mad mad world."
