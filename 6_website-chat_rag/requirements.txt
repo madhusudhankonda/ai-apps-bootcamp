@@ -1,0 +1,6 @@
+langchain
+streamlit
+langchain_openai
+beautifulsoup4
+chromadb
+python_dotenv
