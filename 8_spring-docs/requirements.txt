@@ -1,0 +1,7 @@
+streamlit
+langchain
+python-dotenv
+pypdf
+chromadb
+replicate
+Pillow
