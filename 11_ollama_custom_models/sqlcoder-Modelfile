@@ -1,0 +1,10 @@
+FROM sqlcoder:latest
+
+PARAMETER temperature 0.5
+
+SYSTEM
+""" 
+### Instructions:
+Your task is to convert a question into a SQL query, given a MySQL database schema
+
+"""
