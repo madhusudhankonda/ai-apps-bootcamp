@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  ollama:
+    image: ollama/ollama
+    volumes:
+      - ollama_data:/root/.ollama
+    ports:
+      - 11434:11434
+    restart: unless-stopped
+  
+  mygpt:
+    image: mygpt:0.1
+    ports:
+      - 8501:8501
+    extra_hosts:
+      - host.docker.internal:host-gateway
+    environment:
+      OLLAMA_BASE_URL: ${OLLAMA_BASE_URL}
+      MODEL: ${MODEL}
+      MODEL_VERBOSE: ${MODEL_VERBOSE}
+
+volumes:
+  ollama_data:
