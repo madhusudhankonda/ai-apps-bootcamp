@@ -5,12 +5,11 @@
 
 # Check our the template repo
 
-Visit my [GitHub](https://github.com/madhusudhankonda) to clone the [template github](https://github.com/mkonda-ai-templates/template-openai) repository.
+Visit my [GitHub](https://github.com/madhusudhankonda) to clone the [AI Apps Bootcamp](https://github.com/madhusudhankonda/ai-apps-bootcamp.git) repository.
 
-`git clone https://github.com/mkonda-ai-templates/template-openai.git ai-demo`
+`git clone https://github.com/madhusudhankonda/ai-apps-bootcamp.git ai-demo`
 
 The cd into the `ai-demo` folder
-
 
 # Setting up Python virtual environment 
 You have two options to setup a python env (I'm using `pip` for this setup)
