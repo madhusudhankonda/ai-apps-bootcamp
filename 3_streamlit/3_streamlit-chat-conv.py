@@ -12,9 +12,9 @@ if prompt := st.chat_input():
     result = client.chat.completions.create(
         model="gpt-3.5-turbo",
         messages=[
-            {"role":"system", "content":"You are an expert in BTC"},
+            {"role":"system", "content":"You are an helpful assistant"},
             {"role":"user", "content":prompt}
         ]
     )
-    st.markdown("### My A:")
+    st.markdown("### Ans:")
     st.write(result.choices[0].message.content)
